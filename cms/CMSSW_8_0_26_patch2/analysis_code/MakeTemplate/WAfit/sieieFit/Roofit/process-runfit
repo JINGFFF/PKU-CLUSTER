@@ -1,0 +1,1296 @@
+
+Processing runfit.C...
+69
+1
+5.29271
+221
+6
+-1.27457
+4107
+84.2651
+64.2805
+51384
+1308.06
+757.482
+11802
+25.5821
+397.908
+7615
+-7.28615
+338.979
+5912
+-0.0647859
+301.127
+3446
+-7.18901
+170.501
+1323
+-0.0239445
+53.7237
+0
+0
+0
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(datahist): fit range of variable sieie expanded to nearest bin boundaries: [0.004,0.02] --> [0.004,0.02]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(truehist): fit range of variable sieie expanded to nearest bin boundaries: [0.004,0.02] --> [0.004,0.02]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(fakehist): fit range of variable sieie expanded to nearest bin boundaries: [0.004,0.02] --> [0.004,0.02]
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (truepdf,fakepdf)
+[#1] INFO:Minization --  The following expressions will be evaluated in cache-and-track mode: (ntrue,nfake)
+ **********
+ **   13 **MIGRAD        1000           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=-1.30724e+06 FROM MIGRAD    STATUS=INITIATE       12 CALLS          13 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fake number   4.29050e+04   8.58100e+03   2.01358e-01  -2.15251e+03
+   2  true number   4.29050e+04   8.58100e+03   2.01358e-01   2.15218e+03
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-1.3075e+06 FROM MIGRAD    STATUS=CONVERGED      48 CALLS          49 TOTAL
+                     EDM=1.33976e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fake number   4.82652e+04   2.88807e+02   4.78198e-03   1.89783e-01
+   2  true number   3.75452e+04   2.69659e+02   4.46534e-03   1.13094e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  2    ERR DEF=0.5
+  8.341e+04 -3.510e+04 
+ -3.510e+04  7.272e+04 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2
+        1  0.45063   1.000 -0.451
+        2  0.45063  -0.451  1.000
+ **********
+ **   18 **HESSE        1000
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-1.3075e+06 FROM HESSE     STATUS=OK             10 CALLS          59 TOTAL
+                     EDM=1.34336e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  fake number   4.82652e+04   2.89146e+02   1.91279e-04   1.25258e-01
+   2  true number   3.75452e+04   2.69975e+02   1.78613e-04  -1.25251e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  2    ERR DEF=0.5
+  8.361e+04 -3.534e+04 
+ -3.534e+04  7.289e+04 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2
+        1  0.45270   1.000 -0.453
+        2  0.45270  -0.453  1.000
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(full_pdf) directly selected PDF components: (ntrue)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(full_pdf) indirectly selected PDF components: (truepdf)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(full_pdf) directly selected PDF components: (nfake)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(full_pdf) indirectly selected PDF components: (fakepdf)
+[#1] INFO:Eval -- RooRealVar::setRange(sieie) new range named 'window' created with bounds [0.0052,0.0102]
+36
+1
+0.280467
+139
+6
+-2.75778
+2758
+84.2651
+7.27914
+33611
+1308.06
+280.865
+5752
+25.5821
+176.924
+3548
+-7.28615
+178.851
+2659
+-0.0647859
+156.013
+1610
+-7.18901
+67.2258
+679
+-0.0239445
+32.474
+0
+0
+0
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(datahist): fit range of variable sieie expanded to nearest bin boundaries: [0.004,0.02] --> [0.004,0.02]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(truehist): fit range of variable sieie expanded to nearest bin boundaries: [0.004,0.02] --> [0.004,0.02]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(fakehist): fit range of variable sieie expanded to nearest bin boundaries: [0.004,0.02] --> [0.004,0.02]
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (truepdf,fakepdf)
+[#1] INFO:Minization --  The following expressions will be evaluated in cache-and-track mode: (ntrue,nfake)
+ **********
+ **   13 **MIGRAD        1000           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=-752525 FROM MIGRAD    STATUS=INITIATE        8 CALLS           9 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fake number   2.53780e+04   5.07560e+03   2.01358e-01   2.75369e+03
+   2  true number   2.53780e+04   5.07560e+03   2.01358e-01  -2.75512e+03
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-753163 FROM MIGRAD    STATUS=CONVERGED      47 CALLS          48 TOTAL
+                     EDM=1.08228e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fake number   1.97092e+04   1.75054e+02   4.03987e-03   2.56976e-02
+   2  true number   3.10468e+04   2.04870e+02   4.72769e-03   4.04454e-02
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  2    ERR DEF=0.5
+  3.064e+04 -1.091e+04 
+ -1.091e+04  4.197e+04 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2
+        1  0.30411   1.000 -0.304
+        2  0.30411  -0.304  1.000
+ **********
+ **   18 **HESSE        1000
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-753163 FROM HESSE     STATUS=OK             10 CALLS          58 TOTAL
+                     EDM=1.09179e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  fake number   1.97092e+04   1.75126e+02   1.61595e-04  -2.25274e-01
+   2  true number   3.10468e+04   2.04954e+02   1.89108e-04   2.25277e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  2    ERR DEF=0.5
+  3.067e+04 -1.096e+04 
+ -1.096e+04  4.201e+04 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2
+        1  0.30533   1.000 -0.305
+        2  0.30533  -0.305  1.000
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(full_pdf) directly selected PDF components: (ntrue)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(full_pdf) indirectly selected PDF components: (truepdf)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(full_pdf) directly selected PDF components: (nfake)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(full_pdf) indirectly selected PDF components: (fakepdf)
+[#1] INFO:Eval -- RooRealVar::setRange(sieie) new range named 'window' created with bounds [0.0052,0.0102]
+17
+1
+-1.25639
+77
+6
+2.18963
+1841
+84.2651
+20.7445
+22110
+1308.06
+169.76
+3030
+25.5821
+105.5
+1953
+-7.28615
+68.3657
+1624
+-0.0647859
+65.474
+959
+-7.18901
+36
+343
+-0.0239445
+5.75475
+0
+0
+0
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(datahist): fit range of variable sieie expanded to nearest bin boundaries: [0.004,0.02] --> [0.004,0.02]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(truehist): fit range of variable sieie expanded to nearest bin boundaries: [0.004,0.02] --> [0.004,0.02]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(fakehist): fit range of variable sieie expanded to nearest bin boundaries: [0.004,0.02] --> [0.004,0.02]
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (truepdf,fakepdf)
+[#1] INFO:Minization --  The following expressions will be evaluated in cache-and-track mode: (ntrue,nfake)
+ **********
+ **   13 **MIGRAD        1000           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=-461198 FROM MIGRAD    STATUS=INITIATE        8 CALLS           9 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fake number   1.59685e+04   3.19370e+03   2.01358e-01   1.25837e+03
+   2  true number   1.59685e+04   3.19370e+03   2.01358e-01  -1.25886e+03
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-461457 FROM MIGRAD    STATUS=CONVERGED      41 CALLS          42 TOTAL
+                     EDM=1.29283e-05    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fake number   1.27986e+04   1.50959e+02   4.18056e-03  -3.21164e-01
+   2  true number   1.91378e+04   1.70638e+02   4.70685e-03  -3.10224e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  2    ERR DEF=0.5
+  2.279e+04 -9.968e+03 
+ -9.968e+03  2.912e+04 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2
+        1  0.38694   1.000 -0.387
+        2  0.38694  -0.387  1.000
+ **********
+ **   18 **HESSE        1000
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-461457 FROM HESSE     STATUS=OK             10 CALLS          52 TOTAL
+                     EDM=1.29059e-05    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  fake number   1.27986e+04   1.51067e+02   1.67222e-04  -1.99837e-01
+   2  true number   1.91378e+04   1.70761e+02   1.88274e-04   1.99796e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  2    ERR DEF=0.5
+  2.282e+04 -1.002e+04 
+ -1.002e+04  2.916e+04 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2
+        1  0.38852   1.000 -0.389
+        2  0.38852  -0.389  1.000
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(full_pdf) directly selected PDF components: (ntrue)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(full_pdf) indirectly selected PDF components: (truepdf)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(full_pdf) directly selected PDF components: (nfake)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(full_pdf) indirectly selected PDF components: (fakepdf)
+[#1] INFO:Eval -- RooRealVar::setRange(sieie) new range named 'window' created with bounds [0.0052,0.0102]
+3
+1
+0.280365
+47
+6
+0.952982
+1306
+84.2651
+19.6309
+14459
+1308.06
+70.6372
+1767
+25.5821
+64.956
+1206
+-7.28615
+37.5125
+999
+-0.0647859
+44.9975
+576
+-7.18901
+17
+219
+-0.0239445
+9
+0
+0
+0
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(datahist): fit range of variable sieie expanded to nearest bin boundaries: [0.004,0.02] --> [0.004,0.02]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(truehist): fit range of variable sieie expanded to nearest bin boundaries: [0.004,0.02] --> [0.004,0.02]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(fakehist): fit range of variable sieie expanded to nearest bin boundaries: [0.004,0.02] --> [0.004,0.02]
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (truepdf,fakepdf)
+[#1] INFO:Minization --  The following expressions will be evaluated in cache-and-track mode: (ntrue,nfake)
+ **********
+ **   13 **MIGRAD        1000           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=-288234 FROM MIGRAD    STATUS=INITIATE        8 CALLS           9 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fake number   1.02895e+04   2.05790e+03   2.01358e-01   1.64001e+03
+   2  true number   1.02895e+04   2.05790e+03   2.01358e-01  -1.64023e+03
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-288802 FROM MIGRAD    STATUS=CONVERGED      49 CALLS          50 TOTAL
+                     EDM=1.75935e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fake number   6.92064e+03   1.04365e+02   3.81588e-03   1.65573e-02
+   2  true number   1.36582e+04   1.32754e+02   4.85012e-03  -9.26130e-02
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  2    ERR DEF=0.5
+  1.089e+04 -3.961e+03 
+ -3.961e+03  1.762e+04 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2
+        1  0.28585   1.000 -0.286
+        2  0.28585  -0.286  1.000
+ **********
+ **   18 **HESSE        1000
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-288802 FROM HESSE     STATUS=OK             10 CALLS          60 TOTAL
+                     EDM=1.75883e-06    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  fake number   6.92064e+03   1.04401e+02   1.52635e-04  -3.33558e-01
+   2  true number   1.36582e+04   1.32801e+02   1.94005e-04   3.33546e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  2    ERR DEF=0.5
+  1.090e+04 -3.979e+03 
+ -3.979e+03  1.764e+04 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2
+        1  0.28697   1.000 -0.287
+        2  0.28697  -0.287  1.000
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(full_pdf) directly selected PDF components: (ntrue)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(full_pdf) indirectly selected PDF components: (truepdf)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(full_pdf) directly selected PDF components: (nfake)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(full_pdf) indirectly selected PDF components: (fakepdf)
+[#1] INFO:Eval -- RooRealVar::setRange(sieie) new range named 'window' created with bounds [0.0052,0.0102]
+9
+1
+-0.245251
+23
+6
+0.689167
+844
+84.2651
+0.494363
+9329
+1308.06
+69.8625
+1124
+25.5821
+35.3171
+889
+-7.28615
+31.8439
+668
+-0.0647859
+25
+381
+-7.18901
+14.7511
+139
+-0.0239445
+5
+0
+0
+0
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(datahist): fit range of variable sieie expanded to nearest bin boundaries: [0.004,0.02] --> [0.004,0.02]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(truehist): fit range of variable sieie expanded to nearest bin boundaries: [0.004,0.02] --> [0.004,0.02]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(fakehist): fit range of variable sieie expanded to nearest bin boundaries: [0.004,0.02] --> [0.004,0.02]
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (truepdf,fakepdf)
+[#1] INFO:Minization --  The following expressions will be evaluated in cache-and-track mode: (ntrue,nfake)
+ **********
+ **   13 **MIGRAD        1000           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=-181782 FROM MIGRAD    STATUS=INITIATE        8 CALLS           9 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fake number   6.69850e+03   1.33970e+03   2.01358e-01   8.06277e+02
+   2  true number   6.69850e+03   1.33970e+03   2.01358e-01  -8.06361e+02
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-182015 FROM MIGRAD    STATUS=CONVERGED      46 CALLS          47 TOTAL
+                     EDM=8.20199e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fake number   4.85443e+03   9.04080e+01   3.89471e-03  -4.81708e-02
+   2  true number   8.54246e+03   1.08890e+02   4.69008e-03  -5.15268e-02
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  2    ERR DEF=0.5
+  8.174e+03 -3.311e+03 
+ -3.311e+03  1.186e+04 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2
+        1  0.33633   1.000 -0.336
+        2  0.33633  -0.336  1.000
+ **********
+ **   18 **HESSE        1000
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-182015 FROM HESSE     STATUS=OK             10 CALLS          57 TOTAL
+                     EDM=8.18108e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  fake number   4.85443e+03   9.04531e+01   1.55788e-04  -2.78897e-01
+   2  true number   8.54246e+03   1.08945e+02   1.87603e-04   2.78881e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  2    ERR DEF=0.5
+  8.182e+03 -3.328e+03 
+ -3.328e+03  1.187e+04 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2
+        1  0.33764   1.000 -0.338
+        2  0.33764  -0.338  1.000
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(full_pdf) directly selected PDF components: (ntrue)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(full_pdf) indirectly selected PDF components: (truepdf)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(full_pdf) directly selected PDF components: (nfake)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(full_pdf) indirectly selected PDF components: (fakepdf)
+[#1] INFO:Eval -- RooRealVar::setRange(sieie) new range named 'window' created with bounds [0.0052,0.0102]
+10
+1
+0.739264
+45
+6
+-2.17129
+1027
+84.2651
+-9.63489
+11576
+1308.06
+67.2762
+1272
+25.5821
+29.7773
+1051
+-7.28615
+32.4835
+804
+-0.0647859
+21.8283
+457
+-7.18901
+14
+175
+-0.0239445
+6
+0
+0
+0
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(datahist): fit range of variable sieie expanded to nearest bin boundaries: [0.004,0.02] --> [0.004,0.02]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(truehist): fit range of variable sieie expanded to nearest bin boundaries: [0.004,0.02] --> [0.004,0.02]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(fakehist): fit range of variable sieie expanded to nearest bin boundaries: [0.004,0.02] --> [0.004,0.02]
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (truepdf,fakepdf)
+[#1] INFO:Minization --  The following expressions will be evaluated in cache-and-track mode: (ntrue,nfake)
+ **********
+ **   13 **MIGRAD        1000           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=-226171 FROM MIGRAD    STATUS=INITIATE        8 CALLS           9 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fake number   8.20350e+03   1.64070e+03   2.01358e-01   1.09772e+03
+   2  true number   8.20350e+03   1.64070e+03   2.01358e-01  -1.09784e+03
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-226526 FROM MIGRAD    STATUS=CONVERGED      47 CALLS          48 TOTAL
+                     EDM=4.85631e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fake number   5.69515e+03   9.82544e+01   3.89934e-03  -2.15775e-02
+   2  true number   1.07118e+04   1.21098e+02   4.80403e-03  -4.76113e-02
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  2    ERR DEF=0.5
+  9.654e+03 -3.949e+03 
+ -3.949e+03  1.467e+04 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2
+        1  0.33186   1.000 -0.332
+        2  0.33186  -0.332  1.000
+ **********
+ **   18 **HESSE        1000
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-226526 FROM HESSE     STATUS=OK             10 CALLS          58 TOTAL
+                     EDM=4.84349e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  fake number   5.69515e+03   9.83026e+01   1.55974e-04  -3.10742e-01
+   2  true number   1.07118e+04   1.21157e+02   1.92161e-04   3.10732e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  2    ERR DEF=0.5
+  9.664e+03 -3.968e+03 
+ -3.968e+03  1.468e+04 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2
+        1  0.33317   1.000 -0.333
+        2  0.33317  -0.333  1.000
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(full_pdf) directly selected PDF components: (ntrue)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(full_pdf) indirectly selected PDF components: (truepdf)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(full_pdf) directly selected PDF components: (nfake)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(full_pdf) indirectly selected PDF components: (fakepdf)
+[#1] INFO:Eval -- RooRealVar::setRange(sieie) new range named 'window' created with bounds [0.0052,0.0102]
+9
+1
+-0.250459
+28
+6
+0.462143
+908
+84.2651
+3.85511
+11456
+1308.06
+8.59848
+1171
+25.5821
+29.3246
+1009
+-7.28615
+30.2253
+746
+-0.0647859
+30.0742
+425
+-7.18901
+10
+140
+-0.0239445
+5
+0
+0
+0
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(datahist): fit range of variable sieie expanded to nearest bin boundaries: [0.004,0.02] --> [0.004,0.02]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(truehist): fit range of variable sieie expanded to nearest bin boundaries: [0.004,0.02] --> [0.004,0.02]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(fakehist): fit range of variable sieie expanded to nearest bin boundaries: [0.004,0.02] --> [0.004,0.02]
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (truepdf,fakepdf)
+[#1] INFO:Minization --  The following expressions will be evaluated in cache-and-track mode: (ntrue,nfake)
+ **********
+ **   13 **MIGRAD        1000           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=-217634 FROM MIGRAD    STATUS=INITIATE        8 CALLS           9 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fake number   7.94150e+03   1.58830e+03   2.01358e-01   3.34681e+03
+   2  true number   7.94150e+03   1.58830e+03   2.01358e-01  -3.34699e+03
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-219564 FROM MIGRAD    STATUS=CONVERGED      50 CALLS          51 TOTAL
+                     EDM=0.000100831    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fake number   3.66815e+03   6.60794e+01   3.17791e-03   6.94125e-01
+   2  true number   1.22145e+04   1.13617e+02   5.40359e-03  -3.96660e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  2    ERR DEF=0.5
+  4.367e+03 -6.952e+02 
+ -6.952e+02  1.291e+04 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2
+        1  0.09259   1.000 -0.093
+        2  0.09259  -0.093  1.000
+ **********
+ **   18 **HESSE        1000
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-219564 FROM HESSE     STATUS=OK             10 CALLS          61 TOTAL
+                     EDM=0.000101008    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  fake number   3.66815e+03   6.60819e+01   6.35582e-04  -5.68185e-01
+   2  true number   1.22145e+04   1.13622e+02   2.16144e-04   5.68134e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  2    ERR DEF=0.5
+  4.367e+03 -6.982e+02 
+ -6.982e+02  1.291e+04 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2
+        1  0.09299   1.000 -0.093
+        2  0.09299  -0.093  1.000
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(full_pdf) directly selected PDF components: (ntrue)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(full_pdf) indirectly selected PDF components: (truepdf)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(full_pdf) directly selected PDF components: (nfake)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(full_pdf) indirectly selected PDF components: (fakepdf)
+[#1] INFO:Eval -- RooRealVar::setRange(sieie) new range named 'window' created with bounds [0.0052,0.0102]
+3
+1
+-0.120708
+18
+6
+-0.779429
+508
+84.2651
+7.73031
+7608
+1308.06
+-31.5263
+668
+25.5821
+18.8606
+695
+-7.28615
+12
+514
+-0.0647859
+12
+278
+-7.18901
+9
+95
+-0.0239445
+4
+0
+0
+0
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(datahist): fit range of variable sieie expanded to nearest bin boundaries: [0.004,0.02] --> [0.004,0.02]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(truehist): fit range of variable sieie expanded to nearest bin boundaries: [0.004,0.02] --> [0.004,0.02]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(fakehist): fit range of variable sieie expanded to nearest bin boundaries: [0.004,0.02] --> [0.004,0.02]
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (truepdf,fakepdf)
+[#1] INFO:Minization --  The following expressions will be evaluated in cache-and-track mode: (ntrue,nfake)
+ **********
+ **   13 **MIGRAD        1000           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+ FCN=-137774 FROM MIGRAD    STATUS=INITIATE        8 CALLS           9 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fake number   5.19200e+03   1.03840e+03   2.01358e-01   2.63845e+03
+   2  true number   5.19200e+03   1.03840e+03   2.01358e-01  -2.63854e+03
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-139300 FROM MIGRAD    STATUS=CONVERGED      52 CALLS          53 TOTAL
+                     EDM=2.52159e-05    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fake number   2.32289e+03   5.06577e+01   3.01510e-03   2.66954e-02
+   2  true number   8.06069e+03   9.11132e+01   5.34581e-03  -2.37247e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  2    ERR DEF=0.5
+  2.566e+03 -2.422e+02 
+ -2.422e+02  8.303e+03 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2
+        1  0.05247   1.000 -0.052
+        2  0.05247  -0.052  1.000
+ **********
+ **   18 **HESSE        1000
+ **********
+ COVARIANCE MATRIX CALCULATED SUCCESSFULLY
+ FCN=-139300 FROM HESSE     STATUS=OK             10 CALLS          63 TOTAL
+                     EDM=2.52073e-05    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  fake number   2.32289e+03   5.06584e+01   1.20604e-04  -5.85484e-01
+   2  true number   8.06069e+03   9.11148e+01   2.13832e-04   5.85385e-01
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  2    ERR DEF=0.5
+  2.566e+03 -2.434e+02 
+ -2.434e+02  8.303e+03 
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2
+        1  0.05273   1.000 -0.053
+        2  0.05273  -0.053  1.000
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(full_pdf) directly selected PDF components: (ntrue)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(full_pdf) indirectly selected PDF components: (truepdf)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(full_pdf) directly selected PDF components: (nfake)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(full_pdf) indirectly selected PDF components: (fakepdf)
+[#1] INFO:Eval -- RooRealVar::setRange(sieie) new range named 'window' created with bounds [0.0052,0.0102]
+3
+1
+-0.212768
+7
+6
+-0.765384
+185
+84.2651
+0.527298
+4335
+1308.06
+-8.31387
+299
+25.5821
+1.6813
+310
+-7.28615
+11.7515
+233
+-0.0647859
+3
+116
+-7.18901
+0
+34
+-0.0239445
+1
+0
+0
+0
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(datahist): fit range of variable sieie expanded to nearest bin boundaries: [0.004,0.02] --> [0.004,0.02]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(truehist): fit range of variable sieie expanded to nearest bin boundaries: [0.004,0.02] --> [0.004,0.02]
+[#1] INFO:DataHandling -- RooDataHist::adjustBinning(fakehist): fit range of variable sieie expanded to nearest bin boundaries: [0.004,0.02] --> [0.004,0.02]
+[#1] INFO:Minization -- RooMinuit::optimizeConst: activating const optimization
+[#1] INFO:Minization --  The following expressions have been identified as constant and will be precalculated and cached: (truepdf,fakepdf)
+[#1] INFO:Minization --  The following expressions will be evaluated in cache-and-track mode: (ntrue,nfake)
+ **********
+ **   13 **MIGRAD        1000           1
+ **********
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=2759.5, true number=2759.5
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 2759.5,true number = 2759.5)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+ START MIGRAD MINIMIZATION.  STRATEGY  1.  CONVERGENCE WHEN EDM .LT. 1.00e-03
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=3311.4, true number=2759.5
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 3311.4,true number = 2759.5)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=2207.6, true number=2759.5
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 2207.6,true number = 2759.5)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=2759.5, true number=3311.4
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 2759.5,true number = 3311.4)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=2759.5, true number=2207.6
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 2759.5,true number = 2207.6)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=3311.4, true number=2759.5
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 3311.4,true number = 2759.5)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=3338.59, true number=2759.5
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 3338.59,true number = 2759.5)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=3339.95, true number=2759.5
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 3339.95,true number = 2759.5)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=3340.02, true number=2759.5
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 3340.02,true number = 2759.5)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=3340.02, true number=2759.5
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 3340.02,true number = 2759.5)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=3340.02, true number=2759.5
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 3340.02,true number = 2759.5)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=3340.02, true number=2759.5
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 3340.02,true number = 2759.5)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=3340.02, true number=2759.5
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 3340.02,true number = 2759.5)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=3340.02, true number=2759.5
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 3340.02,true number = 2759.5)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=3340.02, true number=2759.5
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 3340.02,true number = 2759.5)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=3340.02, true number=2759.5
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 3340.02,true number = 2759.5)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=4082.47, true number=2759.5
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 4082.47,true number = 2759.5)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=1436.53, true number=2759.5
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 1436.53,true number = 2759.5)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=2759.5, true number=4082.47
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 2759.5,true number = 4082.47)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=2759.5, true number=1436.53
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 2759.5,true number = 1436.53)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=4082.47, true number=2759.5
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 4082.47,true number = 2759.5)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=4142.6, true number=2759.5
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 4142.6,true number = 2759.5)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=4145.58, true number=2759.5
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 4145.58,true number = 2759.5)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=4145.73, true number=2759.5
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 4145.73,true number = 2759.5)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=4145.74, true number=2759.5
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 4145.74,true number = 2759.5)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=4145.74, true number=2759.5
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 4145.74,true number = 2759.5)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=4145.74, true number=2759.5
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 4145.74,true number = 2759.5)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=4145.74, true number=2759.5
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 4145.74,true number = 2759.5)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=4145.74, true number=2759.5
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 4145.74,true number = 2759.5)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=4145.74, true number=2759.5
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 4145.74,true number = 2759.5)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=4145.74, true number=2759.5
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 4145.74,true number = 2759.5)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=4082.47, true number=2759.5
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 4082.47,true number = 2759.5)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=1436.53, true number=2759.5
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 1436.53,true number = 2759.5)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=2759.5, true number=4082.47
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 2759.5,true number = 4082.47)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=2759.5, true number=1436.53
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 2759.5,true number = 1436.53)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=4082.47, true number=2759.5
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 4082.47,true number = 2759.5)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=4142.6, true number=2759.5
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 4142.6,true number = 2759.5)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=4145.58, true number=2759.5
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 4145.58,true number = 2759.5)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=4145.73, true number=2759.5
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 4145.73,true number = 2759.5)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=4145.74, true number=2759.5
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 4145.74,true number = 2759.5)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=4145.74, true number=2759.5
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 4145.74,true number = 2759.5)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=4145.74, true number=2759.5
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 4145.74,true number = 2759.5)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=4145.74, true number=2759.5
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 4145.74,true number = 2759.5)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=4145.74, true number=2759.5
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 4145.74,true number = 2759.5)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=4145.74, true number=2759.5
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 4145.74,true number = 2759.5)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=4145.74, true number=2759.5
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 4145.74,true number = 2759.5)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=4082.47, true number=2759.5
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 4082.47,true number = 2759.5)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=1436.53, true number=2759.5
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 1436.53,true number = 2759.5)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=2759.5, true number=4082.47
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 2759.5,true number = 4082.47)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=2759.5, true number=1436.53
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 2759.5,true number = 1436.53)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+ FCN=-1e+30 FROM MIGRAD    STATUS=INITIATE       49 CALLS          50 TOTAL
+                     EDM= unknown      STRATEGY= 1      NO ERROR MATRIX       
+  EXT PARAMETER               CURRENT GUESS       STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fake number   2.75950e+03   5.51900e+02   0.00000e+00   0.00000e+00
+   2  true number   2.75950e+03   5.51900e+02   0.00000e+00   0.00000e+00
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=2759.5, true number=2759.5
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 2759.5,true number = 2759.5)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=4082.47, true number=2759.5
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 4082.47,true number = 2759.5)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=1436.53, true number=2759.5
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 1436.53,true number = 2759.5)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+  MNHESS FAILS AND WILL RETURN DIAGONAL MATRIX. 
+ FCN=-1e+30 FROM HESSE     STATUS=FAILED          3 CALLS          53 TOTAL
+                     EDM=0    STRATEGY= 1  ERROR MATRIX UNCERTAINTY 100.0 per cent
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fake number   2.75950e+03   2.32204e+03   0.00000e+00   0.00000e+00
+   2  true number   2.75950e+03   2.32204e+03   0.00000e+00   0.00000e+00
+                               ERR DEF= 0.5
+ MIGRAD MINIMIZATION HAS CONVERGED.
+ MIGRAD WILL VERIFY CONVERGENCE AND ERROR MATRIX.
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=2759.5, true number=2759.5
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 2759.5,true number = 2759.5)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=4082.47, true number=2759.5
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 4082.47,true number = 2759.5)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=1436.53, true number=2759.5
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 1436.53,true number = 2759.5)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+  MNHESS FAILS AND WILL RETURN DIAGONAL MATRIX. 
+ FCN=-1e+30 FROM MIGRAD    STATUS=CONVERGED      55 CALLS          56 TOTAL
+                     EDM=0    STRATEGY= 1  ERROR MATRIX UNCERTAINTY 100.0 per cent
+  EXT PARAMETER                APPROXIMATE        STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  fake number   2.75950e+03   2.32204e+03   0.00000e+00   0.00000e+00
+   2  true number   2.75950e+03   2.32204e+03   0.00000e+00   0.00000e+00
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  2    ERR DEF=0.5
+  7.615e+06  0.000e+00 
+  0.000e+00  7.615e+06 
+ERR MATRIX APPROXIMATE
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2
+        1  0.00000   1.000  0.000
+        2  0.00000   0.000  1.000
+ ERR MATRIX APPROXIMATE
+ **********
+ **   18 **HESSE        1000
+ **********
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=2759.5, true number=2759.5
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 2759.5 +/- 2322.04,true number = 2759.5 +/- 2322.04)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=4082.47, true number=2759.5
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 4082.47 +/- 2322.04,true number = 2759.5 +/- 2322.04)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+[#0] WARNING:Minization -- RooMinuitGlue: Minimized function has error status.
+Returning maximum FCN so far (-1e+30) to force MIGRAD to back out of this region. Error log follows
+Parameter values: fake number=1436.53, true number=2759.5
+RooNLLVar::nll_full_pdf_datahist[ paramSet=(fake number,true number) ]
+     function value is NAN @ paramSet=(fake number = 1436.53 +/- 2322.04,true number = 2759.5 +/- 2322.04)
+RooAddPdf::full_pdf[ ntrue + nfake ]
+     getLogVal() top-level p.d.f evaluates to zero @ !refCoefNorm=(), !pdfs=(ntrue = 0/1,nfake = 0/1), !coefficients=()
+
+ MINUIT WARNING IN HESSE
+ ============== Second derivative zero for parameter1
+  MNHESS FAILS AND WILL RETURN DIAGONAL MATRIX. 
+ FCN=-1e+30 FROM HESSE     STATUS=FAILED          3 CALLS          59 TOTAL
+                     EDM=0    STRATEGY= 1  ERROR MATRIX UNCERTAINTY 100.0 per cent
+  EXT PARAMETER                APPROXIMATE     INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  fake number   1.43653e+03   2.32204e+03   0.00000e+00   0.00000e+00
+   2  true number   2.75950e+03   2.32204e+03   0.00000e+00   0.00000e+00
+                               ERR DEF= 0.5
+ EXTERNAL ERROR MATRIX.    NDIM=  25    NPAR=  2    ERR DEF=0.5
+  7.615e+06  0.000e+00 
+  0.000e+00  7.615e+06 
+ERR MATRIX APPROXIMATE
+ PARAMETER  CORRELATION COEFFICIENTS  
+       NO.  GLOBAL      1      2
+        1  0.00000   1.000  0.000
+        2  0.00000   0.000  1.000
+ ERR MATRIX APPROXIMATE
+[#1] INFO:Minization -- RooMinuit::optimizeConst: deactivating const optimization
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(full_pdf) directly selected PDF components: (ntrue)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(full_pdf) indirectly selected PDF components: (truepdf)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(full_pdf) directly selected PDF components: (nfake)
+[#1] INFO:Plotting -- RooAbsPdf::plotOn(full_pdf) indirectly selected PDF components: (fakepdf)
+[#1] INFO:Eval -- RooRealVar::setRange(sieie) new range named 'window' created with bounds [0.0052,0.0102]
+(int) 0

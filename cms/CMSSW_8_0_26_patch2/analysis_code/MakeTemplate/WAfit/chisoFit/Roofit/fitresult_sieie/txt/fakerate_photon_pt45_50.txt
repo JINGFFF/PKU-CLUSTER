@@ -1,0 +1,8 @@
+data in window = 8393+-91.6133 8393 718 503 434 386 286 318
+nDatatotal = 11836
+fake number = 6275.71+-107.524
+true number = 5560.31+-104.145
+fake in window = 2845.55+-48.7538
+true in window = 5548.95+-103.933
+fakerate = 0.339038+-0.00688756
+chi2ToNDF = 37.1301

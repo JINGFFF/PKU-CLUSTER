@@ -1,0 +1,1 @@
+total Fake Rate	0.484737	+-	0.0138069	window fake rate	0.275591
