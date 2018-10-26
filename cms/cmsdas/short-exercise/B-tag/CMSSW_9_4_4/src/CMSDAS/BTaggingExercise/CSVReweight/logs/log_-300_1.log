@@ -1,0 +1,43 @@
+   ------------------------------------------------------------
+  | Welcome to ROOT 6.10/09                http://root.cern.ch |
+  |                               (c) 1995-2017, The ROOT Team |
+  | Built for linuxx8664gcc                                    |
+  | From tag , 16 October 2017                                 |
+  | Try '.help', '.demo', '.license', '.credits', '.quit'/'.q' |
+   ------------------------------------------------------------
+
+
+Processing csvReweight.C+(1,-300)...
+===> Loading the input root file(s)...
+	Input treefilename = /nfs/dust/cms/user/defrancm/BTVCSVReweight/MuonEG*.root
+===> Preparing the output .root file...
+	Output histofilename = Output/csv_rwt_hf_MuonEG_histo_All.root
+===> Loading the input .csv SF file...
+	Input CSV weight file = CSVv2_Moriond17_B_H.csv; measurementType = iterativefit; sysType = central
+
+	Number of entries = 605885
+	Max number of entries = -1
+
+
+========  Starting Event Loop  ========
+           0	0% done
+     Event 1
+           100000	16% done
+           200000	33% done
+           300000	49% done
+           400000	66% done
+           500000	82% done
+           600000	99% done
+
+Total number of selected events is 269956
+===========================================
+  Number of all events = 605885
+  Number of events with == 2 jets      = 571019
+  Number of events with lepselection2  = 289055
+  Number of events with lepselection1a = 38677
+  Number of events with lepselection1b = 13289
+  Number of events with lepselection1c = 289055
+  Number of events with exselection    = 269956
+===========================================
+Done!
+

@@ -1,0 +1,37 @@
+   ------------------------------------------------------------
+  | Welcome to ROOT 6.10/09                http://root.cern.ch |
+  |                               (c) 1995-2017, The ROOT Team |
+  | Built for linuxx8664gcc                                    |
+  | From tag , 16 October 2017                                 |
+  | Try '.help', '.demo', '.license', '.credits', '.quit'/'.q' |
+   ------------------------------------------------------------
+
+
+Processing csvReweight.C+(0,2515)...
+===> Loading the input root file(s)...
+	Input treefilename = /nfs/dust/cms/user/defrancm/BTVCSVReweight/singletbarW*.root
+===> Preparing the output .root file...
+	Output histofilename = Output/csv_rwt_lf_singletbarW_histo_All.root
+===> Loading the input .csv SF file...
+	Input CSV weight file = CSVv2_Moriond17_B_H.csv; measurementType = iterativefit; sysType = central
+
+	Number of entries = 15660
+	Max number of entries = -1
+
+
+========  Starting Event Loop  ========
+           0	0% done
+     Event 1
+
+Total number of selected events is 87
+===========================================
+  Number of all events = 15660
+  Number of events with == 2 jets      = 14245
+  Number of events with lepselection2  = 90
+  Number of events with lepselection1a = 60
+  Number of events with lepselection1b = 30
+  Number of events with lepselection1c = 0
+  Number of events with exselection    = 87
+===========================================
+Done!
+

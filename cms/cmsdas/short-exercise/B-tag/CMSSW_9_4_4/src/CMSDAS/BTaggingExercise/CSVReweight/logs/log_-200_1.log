@@ -1,0 +1,70 @@
+   ------------------------------------------------------------
+  | Welcome to ROOT 6.10/09                http://root.cern.ch |
+  |                               (c) 1995-2017, The ROOT Team |
+  | Built for linuxx8664gcc                                    |
+  | From tag , 16 October 2017                                 |
+  | Try '.help', '.demo', '.license', '.credits', '.quit'/'.q' |
+   ------------------------------------------------------------
+
+
+Processing csvReweight.C+(1,-200)...
+===> Loading the input root file(s)...
+	Input treefilename = /nfs/dust/cms/user/defrancm/BTVCSVReweight/DoubleMuon*.root
+===> Preparing the output .root file...
+	Output histofilename = Output/csv_rwt_hf_DoubleMuon_histo_All.root
+===> Loading the input .csv SF file...
+	Input CSV weight file = CSVv2_Moriond17_B_H.csv; measurementType = iterativefit; sysType = central
+
+	Number of entries = 3368287
+	Max number of entries = -1
+
+
+========  Starting Event Loop  ========
+           0	0% done
+     Event 1
+           100000	2% done
+           200000	5% done
+           300000	8% done
+           400000	11% done
+           500000	14% done
+           600000	17% done
+           700000	20% done
+           800000	23% done
+           900000	26% done
+           1000000	29% done
+           1100000	32% done
+           1200000	35% done
+           1300000	38% done
+           1400000	41% done
+           1500000	44% done
+           1600000	47% done
+           1700000	50% done
+           1800000	53% done
+           1900000	56% done
+           2000000	59% done
+           2100000	62% done
+           2200000	65% done
+           2300000	68% done
+           2400000	71% done
+           2500000	74% done
+           2600000	77% done
+           2700000	80% done
+           2800000	83% done
+           2900000	86% done
+           3000000	89% done
+           3100000	92% done
+           3200000	95% done
+           3300000	97% done
+
+Total number of selected events is 280812
+===========================================
+  Number of all events = 3368287
+  Number of events with == 2 jets      = 2923669
+  Number of events with lepselection2  = 385218
+  Number of events with lepselection1a = 385218
+  Number of events with lepselection1b = 813
+  Number of events with lepselection1c = 49675
+  Number of events with exselection    = 280812
+===========================================
+Done!
+
